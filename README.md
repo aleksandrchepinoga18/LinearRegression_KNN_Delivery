@@ -49,3 +49,11 @@
 1. Установите необходимые библиотеки:
    ```bash
    pip install numpy pandas seaborn matplotlib scikit-learn
+
+# Заголовок
+## Подзаголовок
+- Пункт 1
+- Пункт 2
+
+```python
+print("Hello, World!")
