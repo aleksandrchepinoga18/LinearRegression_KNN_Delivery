@@ -50,10 +50,11 @@
    ```bash
    pip install numpy pandas seaborn matplotlib scikit-learn
 
-# Заголовок
-## Подзаголовок
-- Пункт 1
-- Пункт 2
+# Пример кода:
+## Загрузите данные:
+```import pandas as pd
+df = pd.read_csv("https://dc-edu.itmo.ru/assets/courseware/v1/344bff205404e315b59430dffaedf04b/asset-v1:ITMO+DS+2024+type@asset+block/deliverytime.csv")
 
-```python
-print("Hello, World!")
+# Выполните предобработку данных:
+```df = df.drop(['ID', 'Delivery_person_ID'], axis=1)
+df = df[df['distance_meters'] <= 100000]
