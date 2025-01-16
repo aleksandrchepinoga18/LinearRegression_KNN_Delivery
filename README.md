@@ -50,7 +50,7 @@
    ```bash
    pip install numpy pandas seaborn matplotlib scikit-learn
 
-# Пример кода:
+# Пример кода кратко:
 ```
 #Загрузите данные
 ```import pandas as pd
